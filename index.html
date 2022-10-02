@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stardust - Museum</title>
+    <link rel="stylesheet" href="museum/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="logo.png" id="logo">
+        <ul>
+            <li>
+                <a href="home.html" style="color: rgb(188, 188, 188);">Home</a>
+            </li>
+            <li><a href="index.html" style="color: rgb(255, 255, 255);">Museum</a>
+                <ul>
+                    <li><a href="index.html">1960</a></li>
+                    <li><a href="#">1970</a></li>
+                    <li><a href="#">1980</a></li>
+                    <li><a href="#">1990</a></li>
+                    <li><a href="#">2000</a></li>
+                    <li><a href="#">2010</a></li>
+                    <li><a href="#">2020</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="infos.html" style="color: rgb(188, 188, 188);">Infos</a>
+            </li>
+        </ul>
+    </div>
+    <div id="conteudo">
+        <div class="block" id="first">
+            <button onclick="Fechar('#first')" class="x">X</button>
+            <div class=" left ">
+                <h1 class="title ">TIROS</h1>
+                <p class="content ">
+                    The Television Infrared Observation Satellite Program (TIROS) was NASA's first experimental step to determine if satellites could be useful in the study of the Earth. Since satellites were a new technology, the TIROS Program also tested various design
+                    issues for spacecraft: instruments, data and operational parameters. The goal was to improve satellite applications for Earth-bound decisions. TIROS proved extremely successful, providing the first accurate weather forecasts based
+                    on data gathered from space. The program's success with many instrument types and orbital configurations led to the development of more sophisticated meteorological observation satellites.
+                </p>
+            </div>
+            <img src="museum/imagens/TIROS.png" alt="imagem" class="img">
+        </div>
+        <div class="item ">
+            <img src="museum/imagens/imagem.png" alt="imagem " class="imagem-deitado">
+            <div class="placa-deitado " onclick="Mostrar( '#first') "></div>
+        </div>
+        <div class="block " id="second">
+            <button onclick="Fechar('#second')" class="x">X</button>
+            <div class="left ">
+                <h1 class="title ">Nimbus 1</h1>
+                <p class="content ">
+                    Nimbus 1, the first in a series of second-generation meteorological research-and-development satellites, was designed to serve as a stabilized, earth-oriented platform for the testing of advanced meteorological sensor systems and for collecting meteorological
+                    data. It consisted of three major elements: a sensory ring, solar paddles, and the control system housing. The solar paddles and the control system housing were connected to the sensory ring by a truss structure, giving the satellite
+                    the appearance of an ocean buoy.
+                </p>
+            </div>
+            <img src="museum/imagens/nimbus1.jpg " alt="imagem" class="img">
+        </div>
+        <div class="item ">
+            <img src="museum/imagens/imagem2.png " alt="imagem" usemap="#hugo" class="imagem-de-pe">
+            <div class="placa-de-pe " id="first-sign " onclick="Mostrar( '#second') "></div>
+        </div>
+        <div class="block" id="third">
+            <button onclick="Fechar('#third')" class="x">X</button>
+            <div class="left">
+                <h1 class="title">ESSA</h1>
+                <p class="content">
+                    The Environmental Science Services Administration (ESSA) satellite program was initiated as an extension of, and a compliment to, the TIROS program. Like TIROS, the ESSA program’s primary objective was to provide cloud-cover photography to the American
+                    National Meteorological Center. ESSA imagery was of a much wider scope, and better resolution, than that of the TIROS 9 program. ESSA satellite design and missions were the result of a combined effort on the part of NASA, the ESSA,
+                    the U.S. Weather Bureau, and the National Meteorological Center. Its success prompted further exploration of using space-borne weather prediction and monitoring devices, like ATS and the NIMBUS series.
+                </p>
+            </div>
+            <img src="museum/imagens/essa.png" alt="imagem" class="img">
+        </div>
+        <div class="item">
+            <img src="museum/imagens/imagem3.png" alt="imagem" usemap="#hugo" class="imagem-de-pe">
+            <div class="placa-de-pe " id="second-sign" onclick="Mostrar( '#third')"></div>
+        </div>
+        <div class="block" id="forth">
+            <button onclick="Fechar('#forth')" class="x">X</button>
+            <div class="left">
+                <h1 class="title">Nimbus 2</h1>
+                <p class="content">
+                    Nimbus 2, the second in a series of second-generation meteorological research-and-development satellites, was designed to serve as a stabilized, earth-oriented platform for the testing of advanced meteorological sensor systems and the collecting of meteorological
+                    data. Similiar to Nimbus 1, it consisted of three major elements: a sensory ring, solar paddles, and the control system housing. The solar paddles and the control system housing were connected to the sensory ring by a truss structure,
+                    giving the satellite the appearance of an ocean buoy.
+                </p>
+            </div>
+            <img src="museum/imagens/nimbus2.jpg" alt="imagem" class="img">
+        </div>
+        <div class="item ">
+            <img src="museum/imagens/imagem4.png" alt="imagem" class="imagem-deitado">
+            <div class="placa-deitado" onclick="Mostrar('#forth')"></div>
+        </div>
+        <div class="block" id="fifth">
+            <button onclick="Fechar('#fifth')" class="x">X</button>
+            <div class="left">
+                <h1 class="title">ATS</h1>
+                <p class="content">
+                    The Applications Technology Satellite (ATS) series was conceived of as a follow-on to the successful experimental communications satellites of the early 1960s with the addition of other technology demonstrations, such as weather observation and investigation
+                    of the space environment. The Department of Defense (DoD) influenced NASA to include technology for gravity-gradient stabilization (on ATS-2, ATS-4, and ATS-5) and for medium-altitude orbits (ATS-2). All five of the first generation
+                    ATS spacecraft carried a C-band transponder with 25 MHz bandwidth capable of relaying 1200 one-way voice circuits or one color television signal.
+                </p>
+            </div>
+            <img src="museum/imagens/ats.jpg" alt="imagem" class="img">
+        </div>
+        <div class="item">
+            <img src="museum/imagens/imagem5.png" alt="imagem" class="imagem-deitado">
+            <div class="placa-deitado " onclick="Mostrar( '#fifth') "></div>
+        </div>
+        <div class="block" id="sixth">
+            <button onclick="Fechar('#sixth')" class="x">X</button>
+            <div class="left">
+                <h1 class="title">Nimbus 3</h1>
+                <p class="content">
+                    Nimbus 3, the third in a series of second-generation meteorological research-and-development satellites and similar to Nimbus 1 an 2, was designed to serve as a stabilized, earth-oriented platform for the testing of advanced meteorological sensor systems
+                    and the collecting of meteorological data. It consisted of three major elements a sensory ring, solar paddles, and the control system housing. The solar paddles and the control system housing were connected to the sensory ring by a
+                    truss structure, giving the satellite the appearance of an ocean buoy.
+                </p>
+            </div>
+            <img src="museum/imagens/nimbus3.jpg " alt="imagem" class="img">
+        </div>
+        <div class="item">
+            <img src="museum/imagens/imagem6.png " alt="imagem" usemap="#hugo" class="imagem-de-pe">
+            <div class="placa-de-pe " id="third-sign " onclick="Mostrar('#sixth')"></div>
+        </div>
+    </div>
+    <script src="museum/script.js "></script>
+</body>
+
+</html>

@@ -128,16 +128,15 @@ body {
 
 .block {
     position: fixed;
-    top: 20vh;
+    top: 10vh;
     left: 20vw;
     display: none;
     background: linear-gradient(0deg, rgba(145, 145, 145, 1) 0%, rgba(218, 218, 218, 1) 72%, rgba(255, 255, 255, 1) 100%);
     opacity: 80%;
     width: 900px;
-    height: 70vh;
+    height: 80vh;
     transition: 10s;
     border-radius: 20px;
-    transition: 2s;
     z-index: 98;
     text-align: justify;
 }
@@ -189,6 +188,12 @@ body {
     width: 325px;
     border-radius: 50%;
     float: right;
+}
+
+audio {
+    position: absolute;
+    margin: 50px;
+    margin-top: 400px;
 }
 
 ::-webkit-scrollbar {
